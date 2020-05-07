@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c222b7a3-584b-492a-8d36-27750993f780" name="Default Changelist" comment="version 1.0&#10;there are minor errors, I’ll fix it soon">
+      <change beforePath="$PROJECT_DIR$/decryptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/decryptor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encryptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/encryptor.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\evgen\PycharmProjects\steganographyGIF\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aLgRP1QX76kQSHAhkVyqlf8mQv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\evgen\PycharmProjects\steganographyGIF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\evgen\PycharmProjects\steganographyGIF" />
+      <recent name="C:\Users\evgen\PycharmProjects\steganographyGIF\images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.decryptor">
+    <configuration name="decryptor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="steganographyGIF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decryptor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="encryptor (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="steganographyGIF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/encryptor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="encryptor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="steganographyGIF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\evgen\PycharmProjects\steganographyGIF\encryptor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="steganographyGIF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.decryptor" />
+        <item itemvalue="Python.encryptor (1)" />
+        <item itemvalue="Python.encryptor" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c222b7a3-584b-492a-8d36-27750993f780" name="Default Changelist" comment="" />
+      <created>1586520278700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586520278700</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added &#10;1)13-16 bytes insert key&#10;2)17-25 bytes insert image size">
+      <created>1588801156644</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588801156644</updated>
+    </task>
+    <task id="LOCAL-00002" summary="version 1.0&#10;there are minor errors, I’ll fix it soon">
+      <created>1588882151654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588882151654</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added &#10;1)13-16 bytes insert key&#10;2)17-25 bytes insert image size" />
+    <MESSAGE value="version 1.0&#10;there are minor errors, I’ll fix it soon" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.0&#10;there are minor errors, I’ll fix it soon" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588878534770">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588878534770" />
+    <state x="137" y="19" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586527963320" />
+    <state x="397" y="0" key="#main" timestamp="1588790205224">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="397" y="0" key="#main/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588790205224" />
+    <state x="333" y="0" key="CommitChangelistDialog2" timestamp="1588882623053">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="333" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588882623053" />
+    <state width="1364" height="440" key="DebuggerActiveHint" timestamp="1588852656988">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1364" height="440" key="DebuggerActiveHint/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588852656988" />
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1588855501965">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588855501965" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588885510795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588885510795" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588674104935" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588885510795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588885510795" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588674104935" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588885510795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588885510795" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588674104935" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588885510795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588885510795" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588674104935" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1588879099830">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588879099830" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1588879099830">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588879099830" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1588879099830">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588879099830" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1588879099830">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588879099830" />
+    <state x="118" y="0" width="998" height="708" key="SettingsEditor" timestamp="1588707636033">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="118" y="0" width="998" height="708" key="SettingsEditor/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588707636033" />
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588621027655" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1588876287680">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588876287680" />
+    <state x="484" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588798864961">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="484" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588798864961" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="received_text[i]" language="Python" />
+        <watch expression="self.message_to_byte(received_text[i])" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
