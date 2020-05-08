@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c222b7a3-584b-492a-8d36-27750993f780" name="Default Changelist" comment="version 1.0&#10;there are minor errors, I’ll fix it soon">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/decryptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/decryptor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/encryptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/encryptor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secretDaxak.png" beforeDir="false" afterPath="$PROJECT_DIR$/Daxak.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +31,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1aLgRP1QX76kQSHAhkVyqlf8mQv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,18 +42,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\evgen\PycharmProjects\steganographyGIF" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\evgen\PycharmProjects\steganographyGIF" />
       <recent name="C:\Users\evgen\PycharmProjects\steganographyGIF\images" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\evgen\PycharmProjects\steganographyGIF" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.decryptor">
+  <component name="RunManager" selected="Python.main">
     <configuration name="decryptor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="steganographyGIF" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="encryptor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="steganographyGIF" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,7 +108,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\evgen\PycharmProjects\steganographyGIF\encryptor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,12 +138,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="widgetLSB(old)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="steganographyGIF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\evgen\PycharmProjects\steganographyGIF\widgetLSB(old).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.decryptor" />
-        <item itemvalue="Python.encryptor (1)" />
-        <item itemvalue="Python.encryptor" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.encryptor (1)" />
+        <item itemvalue="Python.widgetLSB(old)" />
+        <item itemvalue="Python.decryptor" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +202,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -187,67 +216,67 @@
     <option name="LAST_COMMIT_MESSAGE" value="version 1.0&#10;there are minor errors, I’ll fix it soon" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588878534770">
+    <state x="137" y="19" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588887433666">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588878534770" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588887433666" />
     <state x="137" y="19" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586527963320" />
     <state x="397" y="0" key="#main" timestamp="1588790205224">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="397" y="0" key="#main/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588790205224" />
-    <state x="333" y="0" key="CommitChangelistDialog2" timestamp="1588882623053">
+    <state x="333" y="0" key="CommitChangelistDialog2" timestamp="1588886116905">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="333" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588882623053" />
+    <state x="333" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588886116905" />
     <state width="1364" height="440" key="DebuggerActiveHint" timestamp="1588852656988">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1364" height="440" key="DebuggerActiveHint/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588852656988" />
-    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1588855501965">
+    <state x="278" y="114" key="FileChooserDialogImpl" timestamp="1588888267023">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588855501965" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588885510795">
+    <state x="278" y="114" key="FileChooserDialogImpl/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588888267023" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1588960981112">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588885510795" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588960981112" />
     <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588674104935" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588885510795">
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1588960981111">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588885510795" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588960981111" />
     <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588674104935" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588885510795">
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1588960981111">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588885510795" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588960981111" />
     <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588674104935" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588885510795">
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1588960981112">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588885510795" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588960981112" />
     <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588674104935" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1588879099830">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1588960423641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588879099830" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1588879099830">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588960423641" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1588960423641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588879099830" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1588879099830">
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588960423641" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1588960423641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588879099830" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1588879099830">
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588960423641" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1588960423641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588879099830" />
-    <state x="118" y="0" width="998" height="708" key="SettingsEditor" timestamp="1588707636033">
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588960423641" />
+    <state x="53" y="20" width="998" height="708" key="SettingsEditor" timestamp="1588932814014">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="118" y="0" width="998" height="708" key="SettingsEditor/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588707636033" />
+    <state x="53" y="20" width="998" height="708" key="SettingsEditor/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588932814014" />
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588621027655" />
     <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1588876287680">
       <screen x="0" y="0" width="1366" height="728" />
@@ -259,10 +288,26 @@
     <state x="484" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588798864961" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="received_text[i]" language="Python" />
-        <watch expression="self.message_to_byte(received_text[i])" language="Python" />
+        <watch expression="self.file_name" language="Python" />
+        <watch expression="Decryptor.check_key()" language="Python" />
       </configuration>
     </watches-manager>
   </component>
