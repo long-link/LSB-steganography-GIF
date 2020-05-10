@@ -188,32 +188,36 @@ class DecryptorGIF:
         return bit_send
 
 
-# def main():
-#     decryptor_test = DecryptorGIF(input('имя файла '))
-#     if not decryptor_test.check_format():
-#         return
-#     if not decryptor_test.check_key():
-#         return
-#     length_message = int(decryptor_test.find_message(3))  # колличество символов / 4 (1,2,3)
-#     print(decryptor_test.find_message(length_message))  # длина сообщения (23)
-#
-#
+def decode():
+    decryptor_test = DecryptorGIF(input('fileName.gif - '))
+    if not decryptor_test.check_format():
+        return
+    if not decryptor_test.check_key():
+        return
+    length_message = int(decryptor_test.find_message(3, 17))
+    print("hidden message - " + decryptor_test.find_message(length_message, 29))
 
-# def main():
-#     encryptor_test = EncryptorGIF(input('имя файла '))
-#     if not encryptor_test.check_format():
-#         return
-#     entered_message = encryptor_test.compare_message_size(input('введите текст сообщения '))  # str()
-#     if not entered_message:
-#         return
-#     encryptor_test.insert_decryption_key()
-#     length = str(len(entered_message))
-#     while len(length) != 3:
-#         length = '0' + length
-#     encryptor_test.symbol_insertion(length)
-#     encryptor_test.symbol_insertion(entered_message)
-#     encryptor_test.create_new_GIF(input('имя нового файла '))
-#
-#
-# if __name__ == "__main__":
-#     main()
+
+
+def encode():
+    encryptor_test = EncryptorGIF(input('fileName.gif - '))
+    if not encryptor_test.check_format():
+        return
+    entered_message = encryptor_test.compare_message_size(input('write text message '))  # str()
+    if not entered_message:
+        return
+    encryptor_test.insert_decryption_key()
+    length = str(encryptor_test.find_size_message_bytes(entered_message))
+    while len(length) != 3:
+        length = '0' + length
+    encryptor_test.symbol_insertion(length, 17)
+    encryptor_test.symbol_insertion(entered_message, 29)
+    encryptor_test.create_new_GIF(input('NewFile.gif - '))
+
+
+if __name__ == "__main__":
+    action = input('de/en ')
+    if action == 'de':
+        decode()
+    elif action == 'en':
+        encode()

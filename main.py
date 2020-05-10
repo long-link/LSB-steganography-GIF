@@ -1,4 +1,4 @@
-import sys  # sys нужен для передачи argv в QApplication
+import sys
 from medotLSB import EncryptorGIF, DecryptorGIF
 from widgetLSB import Ui_steganograghy_widget
 from PyQt5 import QtGui
@@ -10,6 +10,7 @@ class MainWindow(QMainWindow, Ui_steganograghy_widget):
         super().__init__()  # не очень понял зачем супер
         self.setupUi(self)
         self.file_name = ''
+        self.new_file_name = ''
         self.open_button.clicked.connect(self.open_image)
         self.encode_button.clicked.connect(self.load_encode)
         self.decode_button.clicked.connect(self.load_decode)
@@ -20,13 +21,12 @@ class MainWindow(QMainWindow, Ui_steganograghy_widget):
         self.image_place.setPixmap(QtGui.QPixmap(self.file_name))
         self.line_status.setText(self.file_name)
 
-    # @staticmethod  по идее
     def save_image(self):
-        new_file_name = QFileDialog.getSaveFileName(self, 'Save file', 'desktop/your_image',
-                                                    "Images (*.gif)")[0]
-        return new_file_name
+        self.new_file_name = QFileDialog.getSaveFileName(self, 'Save file', 'desktop/your_image',
+                                                         "Images (*.gif)")[0]
 
     def load_encode(self):
+        # вся эта тема с if мб не правильно, в плане чистого кода
         if self.file_name == '':
             self.errors(41)
             return
@@ -35,17 +35,21 @@ class MainWindow(QMainWindow, Ui_steganograghy_widget):
         if not temporary_value:
             self.errors(temporary_value)
             return
-        entered_message = Encryptor.compare_message_size(self.show_dialog('message'))  # str()
+        entered_message = Encryptor.compare_message_size(self.show_dialog())
         if not entered_message:
             self.errors(31)
             return
         Encryptor.insert_decryption_key()
-        length = str(len(entered_message))
+        length = str(Encryptor.find_size_message_bytes(entered_message))
         while len(length) != 3:
             length = '0' + length
-        Encryptor.symbol_insertion(length)
-        Encryptor.symbol_insertion(entered_message)
-        Encryptor.create_new_GIF(self.save_image())
+        Encryptor.symbol_insertion(length, 17)
+        Encryptor.symbol_insertion(entered_message, 29)
+        self.save_image()
+        if self.new_file_name == '':
+            self.errors(61)
+            return
+        Encryptor.create_new_GIF(self.new_file_name)
 
     def load_decode(self):
         if self.file_name == '':
@@ -59,19 +63,15 @@ class MainWindow(QMainWindow, Ui_steganograghy_widget):
         if not Decryptor.check_key():
             self.errors(51)
             return
-        length_message = int(Decryptor.find_message(3))
-        QMessageBox.information(self, 'Закодированное сообщение было', Decryptor.find_message(length_message))
+        length_message = int(Decryptor.find_message(3, 17))
+        QMessageBox.information(self, 'Закодированное сообщение было', Decryptor.find_message(length_message, 29))
 
-    def show_dialog(self, for_what):
-        if for_what == 'message':   # можно и кейсами если больше будет
-            for_what = 'Введите сообщение которое хотите закодировать :'
-        elif for_what == 'name_new_file':
-            for_what = 'Введите имя нового файла :'
-        text, ok = QInputDialog.getText(self, 'Input Dialog', for_what)
-
+    def show_dialog(self):
+        text, ok = QInputDialog.getText(self, 'Dialog', 'Введите сообщение которое хотите закодировать :')
         if ok:
             return text
 
+    # не уверен, что так нужно делать с ошибками. И вся эта тема с return id ошибки наверное не очень
     def errors(self, error_number):
         warning_errors = {
             21: 'Не является GIF форматом',
@@ -79,7 +79,7 @@ class MainWindow(QMainWindow, Ui_steganograghy_widget):
             31: 'Длинна сообщения превышает максимальный размер/текст не введен',
             41: 'Не выбран файл',
             51: 'Нет закодированного текста/неверный ключ',
-            61: '',
+            61: 'Вы не захотели сохранить файл. Желательно загрузить файл заново',
             100: ''
         }
         QMessageBox.warning(self, 'Ошибочка', warning_errors[error_number])

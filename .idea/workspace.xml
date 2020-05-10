@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c222b7a3-584b-492a-8d36-27750993f780" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Daxak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medotLSB.py" beforeDir="false" afterPath="$PROJECT_DIR$/medotLSB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgetLSB.py" beforeDir="false" afterPath="$PROJECT_DIR$/widgetLSB.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,40 +45,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\evgen\PycharmProjects\steganographyGIF" />
-      <recent name="C:\Users\evgen\PycharmProjects\steganographyGIF\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\evgen\PycharmProjects\steganographyGIF\images" />
+      <recent name="C:\Users\evgen\PycharmProjects\steganographyGIF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\evgen\PycharmProjects\steganographyGIF\images" />
       <recent name="C:\Users\evgen\PycharmProjects\steganographyGIF" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="decryptor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="steganographyGIF" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decryptor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.noInterface">
     <configuration name="encryptor (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="steganographyGIF" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,6 +93,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="noInterface" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="steganographyGIF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/noInterface.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.noInterface" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.encryptor (1)" />
         <item itemvalue="Python.widgetLSB(old)" />
-        <item itemvalue="Python.decryptor" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588961281493</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="version 2.0 Interface&#10;combined two classes into one file metodLSB.&#10;mine brings it all together">
+      <created>1588962389693</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588962389693</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,10 +245,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="397" y="0" key="#main/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588790205224" />
-    <state x="333" y="0" key="CommitChangelistDialog2" timestamp="1588961279640">
+    <state x="333" y="0" key="CommitChangelistDialog2" timestamp="1588962388073">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="333" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588961279640" />
+    <state x="333" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588962388073" />
     <state width="1364" height="440" key="DebuggerActiveHint" timestamp="1588852656988">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -241,42 +257,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="278" y="114" key="FileChooserDialogImpl/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588888267023" />
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1588962127299">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1589112207002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588962127299" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1589112207002" />
     <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588674104935" />
-    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1588962127299">
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1589112207002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588962127299" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1589112207002" />
     <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588674104935" />
-    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1588962127299">
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1589112207001">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588962127299" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1589112207001" />
     <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588674104935" />
-    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1588962127299">
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1589112207002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588962127299" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1589112207002" />
     <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588674104935" />
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1588962127299">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1589067856071">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588962127299" />
-    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1588962127299">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1589067856071" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1589067856071">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588962127299" />
-    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1588962127299">
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1589067856071" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1589067856071">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588962127299" />
-    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1588962127299">
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1589067856071" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1589067856071">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588962127299" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1589067856071" />
+    <state x="466" y="75" key="RollbackChangesDialog" timestamp="1588977078459">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="466" y="75" key="RollbackChangesDialog/0.0.1366.728/-1440.-67.1440.860@0.0.1366.728" timestamp="1588977078459" />
     <state x="53" y="20" width="998" height="708" key="SettingsEditor" timestamp="1588961530893">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
